@@ -1,0 +1,30 @@
+public class Student {
+
+    // TODO: declare private fields here
+
+    public Student(String studentId, String name, double grade) {
+        // TODO: assign studentId directly (no setter for this one)
+        // TODO: call setName() and setGrade()
+    }
+
+    // TODO: getters for all three fields
+
+    // TODO: setName() with validation
+
+    // TODO: setGrade() with validation
+
+    // TODO: getLetterGrade()
+
+    @Override
+    public String toString() {
+        // TODO
+        return "";
+    }
+}
+
+// Test it with this in main():
+Student s1 = new Student("S001", "Alice", 88.5);
+System.out.println(s1);
+System.out.println(s1.getLetterGrade());
+
+s1.setGrade(200);  // should throw IllegalArgumentException
